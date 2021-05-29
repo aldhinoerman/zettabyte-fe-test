@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #131310;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+.banner {
+  position: relative;
+  background-color: #182b47;
+  background-size: cover;
+  color: whitesmoke;
+  text-align: center;
+  height: 322px;
+}
+
+.banner h1 {
+  padding: 100px 0 20px;
+}
+
+.banner p {
+  word-spacing: 1.5px;
+}
+
+.container {
+  background-color: #182b47;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: whitesmoke;
+  padding-bottom: 20px;
+  max-width: 300px;
+  margin: 0 20px 20px 5px;
+  text-align: left;
+}
