@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  color: #111111;
+}
+
+a {
+  text-decoration: none;
+  color: dodgerblue;
+  font-weight: bold;
+}
+
+i {
+  cursor: pointer;
+}
+
+.container {
+  padding-right: 150px;
+  padding-left: 150px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col-pict {
+  grid-area: menu;
+  cursor: pointer;
+}
+.col-name {
+  grid-area: main;
+  cursor: pointer;
+}
+.col-edit {
+  grid-area: right;
+}
+.col-time {
+  grid-area: footer;
+}
+
+.col-com-pict {
+  grid-area: picture;
+}
+
+.col-com-name {
+  grid-area: name;
+}
+
+.col-com-date {
+  grid-area: date;
+}
+
+.col-com-comment {
+  grid-area: comment;
+}
+
+.col-com-btn {
+  grid-area: button;
+}
+
+.col-com-flag {
+  grid-area: flag;
+}
+
+.col-post-pict {
+  grid-area: gambar;
+}
+
+.col-post-comment {
+  grid-area: komen;
+}
+
+.col-post-btn {
+  grid-area: tombol;
+}
+
+.col-com {
+  display: grid;
+  grid-template-areas:
+    "picture name date"
+    "picture comment comment"
+    "picture button flag";
+  grid-gap: 10px;
+}
+
+.col-post {
+  display: grid;
+  grid-template-areas:
+    "gambar komen"
+    "gambar tombol";
+}
+
+.col {
+  display: grid;
+  grid-template-areas:
+    "menu main main right"
+    "menu footer footer right";
+  grid-gap: 10px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding-bottom: 20px;
+  margin: 50px 10px auto;
+  text-align: left;
+}
+
+.card .card-profile {
+  padding: 20px;
+}
+
+.card .card-profile p {
+  font-weight: bold;
+}
+
+.card .card-profile span {
+  color: gray;
+}
+
+.card .card-profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.card .card-status {
+  padding: 10px 20px;
+}
+
+.card .card-photo {
+  padding: 20px;
+}
+
+.card .card-photo img {
+  width: 990px;
+}
+
+.card .card-reaction i {
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.card .card-reaction span {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: -3px;
+  cursor: pointer;
+}
+
+.card .comment {
+  padding: 20px 10px 10px;
+}
+
+.card .comment i {
+  padding-left: 10px;
+}
+
+.card .comment .comment-section {
+  margin-top: 20px;
+}
+
+.card .comment-section img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.card .comment-post {
+  margin-top: 20px;
+}
+
+.card .comment-post i {
+  width: 50px;
+  height: 50px;
+}
+
+.card .comment-post textarea {
+  width: 930px;
+  min-width: 930px;
+  max-width: 930px;
+  font-family: "PT Sans", sans-serif;
+}
+
+.card .comment-post textarea::placeholder {
+  font-family: "PT Sans", sans-serif;
+}
+
+.card .comment-post button {
+  margin-top: 20px;
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 10px;
+  cursor: pointer;
+  background-color: #2196f3;
+  font-weight: 500;
+}
+
+.card .comment-post button:hover {
+  background: #0b7dda;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML + CSS + 3</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card-profile">
+          <div class="row">
+            <div class="col">
+              <img class="col-pict" src="assets/img/profile.jpg" />
+              <p class="col-name" style="color: dodgerblue">Jarot</p>
+              <p class="col-name" style="padding-left: 38px">
+                posted on your timeline
+              </p>
+              <span class="col-time" style="margin-top: -10px"
+                >32 minutes ago</span
+              >
+              <i
+                class="fas fa-ellipsis-v col-edit"
+                style="padding-left: 700px"
+              ></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-status">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed,
+            aliquam dolorum ratione possimus cupiditate quis voluptatibus iusto
+            illum, necessitatibus libero eveniet sequi eius, quasi cumque.
+            Dolorum saepe veritatis autem harum?
+          </p>
+        </div>
+
+        <div class="card-photo">
+          <img src="assets/img/feed.jpg" />
+        </div>
+
+        <div class="card-reaction">
+          <div class="row">
+            <i class="fas fa-heart"></i>
+            <span>Like (5)</span>
+            <i class="fas fa-share-alt"></i>
+            <span>Share (21)</span>
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="comment-stats">
+            <div class="row">
+              <p>1 comments</p>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+          </div>
+          <div class="comment-section">
+            <div class="row">
+              <div class="col-com">
+                <img src="assets/img/comment-pict.jpg" class="col-com-pict" />
+                <p class="col-com-name" style="font-weight: bold">
+                  Alice Freeman
+                </p>
+                <span
+                  class="col-com-date"
+                  style="color: gray; padding-right: 700px; margin-left: -50px"
+                  >June, 10, 2018</span
+                >
+                <p class="col-com-comment">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+                  ipsa, delectus excepturi molestias pariatur perspiciatis aut
+                  tenetur explicabo voluptate dolores quia odio cumque tempore,
+                  repellendus sit distinctio, doloremque cum vitae.
+                </p>
+                <a href="#" class="col-com-btn">SHARE</a>
+                <i
+                  class="far fa-flag col-com-flag"
+                  style="margin-left: -100px"
+                ></i>
+              </div>
+            </div>
+          </div>
+          <div class="comment-post">
+            <div class="row">
+              <div class="col-post">
+                <i class="fas fa-user-circle fa-2x col-post-pict"></i>
+                <textarea
+                  type="text"
+                  class="col-post-comment"
+                  placeholder="Add a comment."
+                ></textarea>
+                <button href="#" class="col-post-btn">Post Comment</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
