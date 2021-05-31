@@ -8,6 +8,13 @@ const arr2 = [1, 3, 4, 7, 9, 10];
 function result(arr1, arr2) {
   // Your Code Here
   const res = [];
+  let test = arr1.reduce(function (a, b) {
+    return Math.max(a, b);
+  })
+  let a = arr2.every(best => best > test)
+  let b = arr2.some(best => best < test)
+  res.push(a, b);
+  return res;
 }
 
 console.log(result(arr1, arr2));

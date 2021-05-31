@@ -51,6 +51,8 @@ const schoolId = '2';
 
 function result(students, schoolId) {
   // Your Code Here
+  let test = students.filter(e => e.school.id === schoolId).map(o => `name: ${o.name}, School_name: ${o.school.short_name}`)
+  return test;
 }
 
 console.log(result(students, schoolId));

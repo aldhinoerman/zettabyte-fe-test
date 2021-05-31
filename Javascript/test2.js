@@ -9,6 +9,12 @@ const arr2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 function result(arr1, arr2) {
   // Your Code Here
+  let even = arr2.filter(number => number % 2 === 0)
+  let odd = arr2.filter(number => number % 2 !== 0)
+  let res = arr1;
+  res.push(even[1], even[3])
+  res.unshift(odd[3], odd[1])
+  return res;
 }
 
 console.log(result(arr1, arr2));
