@@ -1,6 +1,7 @@
 {
   "name": "angular-test",
   "version": "0.1.0",
+  "homepage": "https://zettabyte-fe-test-angular.vercel.app",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
